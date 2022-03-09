@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    background-color: #fbfdff;
+    font: 16px/1.5 Helvetica, Arial, sans-serif;
+    color: #5E6063;
+}
+
+.container {
+    width: 30em;
+    margin: 10em auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 1em;
+    margin-left: 1em;
+    font-weight: bold;
+}
+
+#demos {
+    opacity: 1;
+    color: #8B8D90;
+    background: #FFFFFF;
+    border: 1px solid #E2E8EE;
+    font-size: 20px;
+    margin: 10px 0 0 0;
+    padding: 0;
+}
+
+#demos li {
+    list-style: none;
+    padding: 1em;
+}
